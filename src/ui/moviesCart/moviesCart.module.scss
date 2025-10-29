@@ -1,0 +1,44 @@
+.container {
+  .mainContainer {
+    .list {
+      padding-block: 30px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        img {
+          max-width: 200px;
+        }
+        .score {
+          position: absolute;
+          bottom: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background: white;
+        }
+        .genre {
+          position: absolute;
+          bottom: 70px;
+          left: 80px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          span {
+            background: #da2f68;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

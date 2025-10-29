@@ -1,0 +1,38 @@
+.container {
+  background: #020c1b;
+  padding-block: 30px;
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    .linked {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    .textFooter {
+      font-size: 20px;
+      color: #555c66;
+      max-width: 900px;
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #04152d;
+      }
+    }
+  }
+}
